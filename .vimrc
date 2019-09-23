@@ -14,6 +14,7 @@ set expandtab
 set shiftwidth=4
 syntax enable
 filetype indent on
+colo elflord
 
 " File Management
 set autoread
