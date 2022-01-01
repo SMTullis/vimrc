@@ -14,7 +14,11 @@ set expandtab
 set shiftwidth=4
 syntax enable
 filetype indent on
-colo elflord
+filetype plugin indent on
+
+" Theme
+packadd! dracula
+colo dracula
 
 " File Management
 set autoread
